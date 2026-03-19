@@ -1,0 +1,57 @@
+.lb-page {
+  display: flex;
+  gap: 2rem;
+  margin: 0 2rem;
+  width: 100%;
+}
+
+.lb-info {
+  flex: .7;
+}
+
+.lb-countdown {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+
+  background-color: var(--pink);
+  color: var(--pink-dark);
+  border-radius: 1rem;
+}
+
+.lb-timer {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin: 0 20%;
+
+  div {
+    text-align: center;
+  }
+
+  :nth-child(-n+5) {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+}
+
+.timer-num {
+  font-size: 3rem;
+}
+
+.lb-updated {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+
+  background-color: var(--yellow);
+  color: var(--orange-dark);
+  border-radius: 1rem;
+
+  div {
+    margin-top: .5rem;
+    margin-left: 1rem;
+    font-size: 1.6rem;
+  }
+}
+
+.lb-list {
+  flex: 1;
+}

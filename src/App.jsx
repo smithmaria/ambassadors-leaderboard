@@ -1,13 +1,15 @@
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import LeaderboardPage from './pages/leaderboard/LeaderboardPage'
 
 function App() {
 
   return (
-    <>
-      <section>
-        Hello, world!
-      </section>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LeaderboardPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 

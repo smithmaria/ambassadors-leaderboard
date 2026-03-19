@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+  --font-family: "Red Hat Display", sans-serif;
+  
+  --white: #fffefd;
+  --purple: #e9e9ff;
+  --purple-dark: #6844aa;
+  --orange: #ffe6ca;
+  --orange-dark: #ae5c00;
+  --pink: #ffecee;
+  --pink-dark: #c54950;
+  --green: #edf3cf;
+  --green-dark: #5d6c12;
+  --yellow: #fff3cc;
+  --gray: #f0f0f0;
+  --gray-dark: #262626;
+}
+
 body {
-  margin: 0;
+  margin: 3rem 5rem;
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+hr {
+  height: 2px;
+  border-style: solid;
+  background-color: var(--gray);
+  color: var(--gray);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0 0 .3rem;
 }
