@@ -14,20 +14,21 @@
   --green-dark: #5d6c12;
   --yellow: #fff3cc;
   --gray: #f0f0f0;
+  --gray-medium: #ececec;
   --gray-dark: #262626;
 }
 
 body {
   margin: 3rem 5rem;
   font-family: var(--font-family);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 hr {
-  height: 2px;
+  height: 1px;
   border-style: solid;
-  background-color: var(--gray);
-  color: var(--gray);
+  background-color: var(--gray-medium);
+  color: var(--gray-medium);
 }
 
 h1 {

@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout/Layout';
 import './LeaderboardPage.css'
+import LeaderboardRow from './LeaderboardRow';
 
 function LeaderboardPage() {
   return (
@@ -28,7 +29,10 @@ function LeaderboardPage() {
             </div>
           </div>
           <div className='lb-list'>
-            leaderboard
+            <LeaderboardRow rank="1" total="45 hrs" />
+            <LeaderboardRow rank="2" total="25 hrs" />
+            <LeaderboardRow rank="3" total="25 hrs" />
+            <LeaderboardRow rank="4" total="25 hrs" />
           </div>
         </div>
       </Layout>
