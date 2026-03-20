@@ -1,3 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 hr {
   margin: 1.5rem 0 2rem;
+}
+
+.menu-icon {
+  height: 2.8rem;
+  transition: .2s;
+
+  &:hover {
+    filter: brightness(.8);
+    cursor: pointer;
+  }
 }
