@@ -1,0 +1,61 @@
+.manage-members-page {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.add-member-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-add-member {
+  padding: .8rem 1.2rem;
+  border: none;
+  border-radius: 1rem;
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: var(--purple);
+  color: var(--purple-dark);
+
+  transition: .1s;
+  &:hover {
+    filter: brightness(.9);
+    cursor: pointer;
+  }
+}
+
+.members-table {
+  margin-top: 2rem;
+  width: 100%;
+
+  border-collapse: collapse;
+
+  th {
+    text-align: left;
+  }
+
+  td, th {
+    border: 1px solid var(--gray-medium);
+    padding: .5rem;
+  }
+
+  tr:nth-child(even) {
+    background-color: var(--gray);
+  }
+}
+
+.member-actions {
+  display: flex;
+  gap: .5rem;
+
+  img {
+    height: 1.8rem;
+    transition: .2s;
+
+    &:hover {
+      filter: brightness(.8);
+      cursor: pointer;
+    }
+  }
+}
